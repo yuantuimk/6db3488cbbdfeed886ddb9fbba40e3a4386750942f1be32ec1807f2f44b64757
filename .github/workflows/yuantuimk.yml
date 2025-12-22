@@ -3,24 +3,28 @@ name: yuantuimk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 4/6 * * *'
-jobs:  # 19605
+    - cron: '13 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuantuimk
         env:
-          pmtyw2873: ${{ secrets.pmtyw2873 }}
+          xmgug3: ${{ secrets.xmgug3 }}
         run: |
-          echo $pmtyw2873 | jq -r .dxot1722 | /bin/bash
-          echo $jt90887 | jq -r .m2676 | /bin/bash
-          echo $sey072 | jq -r .uq2110 | /bin/bash
-          echo $n0 | jq -r .qepbt39 | /bin/bash
-          echo $lbul8718 | jq -r .pjn53 | /bin/bash
-          echo $m92 | jq -r .ckfc786 | /bin/bash
-          echo $o25 | jq -r .gje02415 | /bin/bash
-          echo $qg51 | jq -r .usla02205 | /bin/bash
-          echo $sjfm0 | jq -r .dyjyf56 | /bin/bash
-          echo $jmsf20 | jq -r .nucm6944 | /bin/bash
+          echo $xmgug3 | jq -r .glxqu65 | /bin/bash
+          echo $wb1632 | jq -r .fhgn1 | /bin/bash
+          echo $azg22008 | jq -r .bbj25859 | /bin/bash
+          echo $iebuw532 | jq -r .l397 | /bin/bash
+          echo $zeqa9 | jq -r .qh8 | /bin/bash
+          echo $bez26 | jq -r .zwxg6 | /bin/bash
+          echo $nyrsl74 | jq -r .xk61506 | /bin/bash
+          echo $bf37348 | jq -r .rpb563 | /bin/bash
+          echo $hpc05651 | jq -r .o06 | /bin/bash
+          echo $u123 | jq -r .dcmyi64 | /bin/bash
+          echo $abq392 | jq -r .zpzma63 | /bin/bash
+          echo $a2 | jq -r .rggnd77344 | /bin/bash
+          echo $s13506 | jq -r .vhy80 | /bin/bash
 
