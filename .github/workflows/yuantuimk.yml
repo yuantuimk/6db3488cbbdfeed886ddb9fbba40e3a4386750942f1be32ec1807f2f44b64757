@@ -1,9 +1,8 @@
 name: yuantuimk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '3 4/6 * * *'
 
 jobs:
   build:
@@ -12,19 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuantuimk
         env:
-          xmgug3: ${{ secrets.xmgug3 }}
+          yl3652: ${{ secrets.yl3652 }}
         run: |
-          echo $xmgug3 | jq -r .glxqu65 | /bin/bash
-          echo $wb1632 | jq -r .fhgn1 | /bin/bash
-          echo $azg22008 | jq -r .bbj25859 | /bin/bash
-          echo $iebuw532 | jq -r .l397 | /bin/bash
-          echo $zeqa9 | jq -r .qh8 | /bin/bash
-          echo $bez26 | jq -r .zwxg6 | /bin/bash
-          echo $nyrsl74 | jq -r .xk61506 | /bin/bash
-          echo $bf37348 | jq -r .rpb563 | /bin/bash
-          echo $hpc05651 | jq -r .o06 | /bin/bash
-          echo $u123 | jq -r .dcmyi64 | /bin/bash
-          echo $abq392 | jq -r .zpzma63 | /bin/bash
-          echo $a2 | jq -r .rggnd77344 | /bin/bash
-          echo $s13506 | jq -r .vhy80 | /bin/bash
+          echo $yl3652 | jq -r .u3864 | /bin/bash
+          echo $gzmi04074 | jq -r .cpe3786 | /bin/bash
+          echo $note4089 | jq -r .g2 | /bin/bash
+          echo $qlgh0540 | jq -r .oqzi917 | /bin/bash
+          echo $gck31 | jq -r .hvpeo223 | /bin/bash
+          echo $ec7486 | jq -r .ux2 | /bin/bash
+          echo $xn14 | jq -r .ljs5 | /bin/bash
+          echo $dfzq326 | jq -r .doea82 | /bin/bash
+          echo $nm08603 | jq -r .ll90 | /bin/bash
+          echo $zq5 | jq -r .dyqo71166 | /bin/bash
 
